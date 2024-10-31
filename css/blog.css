@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+/*    max-width: 940px;*/
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    color: #3D3D3D;
+}
+.search-box.active {
+    left: 40%;
+}
+.search-box {
+    position: absolute;
+    top: 110%;
+    left: 100%;
+    width: 50%;
+    right: 2rem;
+}
+.search-box input {
+    padding: 1.5rem 2rem;
+    width: 100%;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.our-blog{
+    display: block;
+    padding-top: 75px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.our-blog h1{
+    text-align: justify;
+    border-bottom: 2px solid #000;
+    font-size: 30px;
+    text-align: center;
+    
+}
+figure {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 30px;
+    padding: 15px;    
+    text-align: center;    
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+}
+figcaption {
+    margin-top: 10px;
+}
+figcaption a {
+    text-decoration: none;
+    color: #000;
+}
+.bbc {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure img {
+    width: 100%;
+}
+
+/* Sobre Profissionais */
+.sobre {
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner-sobre {
+    display: block;
+    align-items: center;
+    padding-top: 75px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.inner-sobre h2 {
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+}
+
+
+.fa-sobre {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 320px;
+    background-color: #e8e8e8;
+    border: 1px solid #a1a1a1;
+    border-radius: 25px;
+    text-align: center;
+}
+.fa-sobre p {
+    margin-top: 34px;
+    padding: 12px;
+    text-align: center;
+}
+.fa-sobre span {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Rodape */
+footer {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #343538;
+    color: #fff;
+    text-align: center;
+}
+
+.Flex5 {
+    display: flex;
+   /* flex-direction: column-reverse;*/
+   justify-content: space-around;
+}
+.container {
+    margin: 0 auto;
+}
+.copyright {
+    border: 2px solid #c4c9cd;
+    text-align: center;
+    padding: 4px;
+    margin-top: 45px;
+    bottom: 10px;
+} 
+
+@media (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+    .sobre {    
+        display: block;    
+        justify-content: space-evenly;    
+    }
+}
